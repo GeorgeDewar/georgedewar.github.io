@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>George &amp; Rachel's Wedding</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="/wedding/favicon.png" />
+</head>
+<body>
+<div id="flower-left" class="flower">
+	<img src="img/flower.png" />
+</div>
+<div id="flower-right" class="flower">
+	<img src="img/flower.png" />
+</div>
+
+<div id="content">
+
+	<h1>George &amp; Rachel's Wedding</h1>
+	
+	<div id="image-bar">
+		<img src="img/heart.png" class="heart" />
+		<img src="img/g_r.png" class="g_r" />
+		<img src="img/heart.png" class="heart" />
+		<img src="img/g_r.png" class="g_r" />
+		<img src="img/heart.png" class="heart" />
+	</div>
+	
+	<h2>Welcome to our wedding web page :-)</h2>
+
+	<p>Here you'll find information about our wedding. Keep an eye out here
+	for any extra information we may add before the wedding. 
+	<a href="mailto:ourwedding@dewar.co.nz">Let us know</a> if you have any questions.</p>
+	
+	<h2>RSVP</h2>
+	<p>We'd really appreciate hearing your response by 19 October. To RSVP, you can email us at 
+	<a href="mailto:ourwedding@dewar.co.nz">ourwedding@dewar.co.nz</a>, or contact one of us directly.</p>
+	
+	<h2>Directions to the Church</h2>
+	<p>Our wedding will be held in <a href="http://www.wallacevillechurch.co.nz/">Wallaceville Church</a>, which 
+	is in Whiteman's Valley, Upper Hutt. From Wellington, 
+	follow State Highway 2 (signs for Lower Hutt) for about 30 minutes, then take the Wallaceville / Whitemans Valley
+	exit. At the roundabout, take a right onto Fergusson Drive, and then a quick left onto Ward Street. At the end
+	of Ward Street, take a left at the roundabout and then your first right, onto Wallaceville Road. Finally, after
+	about 10 minutes, turn right onto Whitemans Valley Road, and the church will be on your left (number 7).</p>
+	
+	<!-- Map to the church -->
+	<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.nz/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=7+Whitemans+Valley+Road,+Whitemans+Valley,+Wellington&amp;aq=&amp;sll=-41.137555,175.089798&amp;sspn=0.164191,0.368729&amp;ie=UTF8&amp;hq=&amp;hnear=7+Whitemans+Valley+Rd,+Whitemans+Valley+5371,+Wellington&amp;t=m&amp;ll=-41.126694,175.088425&amp;spn=0.124133,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.nz/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=7+Whitemans+Valley+Road,+Whitemans+Valley,+Wellington&amp;aq=&amp;sll=-41.137555,175.089798&amp;sspn=0.164191,0.368729&amp;ie=UTF8&amp;hq=&amp;hnear=7+Whitemans+Valley+Rd,+Whitemans+Valley+5371,+Wellington&amp;t=m&amp;ll=-41.126694,175.088425&amp;spn=0.124133,0.219727&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+	
+	<h2>Directions to the Reception Venue</h2>
+	<p>The reception will be held in Avalon Public Hall, which is in Avalon, Lower Hutt. From Wallaceville Church,
+	head back the way you came to get back on the motorway, going South. After about 15 minutes, take the "Avalon
+	/ Stokes Valley" exit. At the roundabout, turn left onto High Street, then you will soon see Mabey Road on your
+	left. The hall is at number 20.</p>
+	
+	<!-- Map to the reception venue -->
+	<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.nz/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=20+mabey+road,+avalon&amp;aq=&amp;sll=-41.188755,175.01759&amp;sspn=0.164062,0.368729&amp;ie=UTF8&amp;hq=&amp;hnear=20+Mabey+Rd,+Avalon,+Lower+Hutt+5011&amp;t=m&amp;ll=-41.180204,174.946976&amp;spn=0.124032,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.nz/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=20+mabey+road,+avalon&amp;aq=&amp;sll=-41.188755,175.01759&amp;sspn=0.164062,0.368729&amp;ie=UTF8&amp;hq=&amp;hnear=20+Mabey+Rd,+Avalon,+Lower+Hutt+5011&amp;t=m&amp;ll=-41.180204,174.946976&amp;spn=0.124032,0.219727&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+	
+	<h2>Gift Registry</h2>
+	<p>If you'd like to give a wedding gift, we've prepared an <a href="http://giftyweddings.com/georgerachel/view">online gift registry</a> to help 
+	with gift ideas. Feel free to use this if you wish.</p>
+	
+	<div style="height: 100px;"></div>
+	
+</div>
+
+<script type="text/javascript" src="jquery-2.0.3.js"></script>
+<script type="text/javascript">
+	
+	// Set the position of the flowers, based on the window width
+	var positionFlowers = function(){
+		var barWidth = ($(window).width() - $('#content').width()) / 2;
+		var flowerWidth = $('#flower-left').width();
+	
+		var left = (barWidth - flowerWidth) / 2;
+		left -= 8;
+		$('#flower-left').css('left',left + 'px');
+	
+		var right = (barWidth - flowerWidth) / 2;
+		right -= 8;
+		$('#flower-right').css('right', right + 'px');
+	}
+	
+	// Position the flowers on page load and page resize
+	$(positionFlowers);
+	$(window).resize(positionFlowers);
+</script>
+</body>
+</html>
