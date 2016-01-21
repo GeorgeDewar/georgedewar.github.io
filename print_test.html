@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Print style problem demonstration</title>
+<style type="text/css" media="all">
+.page-with-sidebar { background: purple; }
+
+.page-with-sidebar {
+  transition-duration: .3s;
+}
+
+@media(min-width: 1199px) {
+  .page-sidebar-expanded {
+    padding-left: 230px;
+  }
+}
+</style>
+<style type="text/css" media="print">
+.page-with-sidebar, .page-sidebar-expanded { 
+	padding-left: 0!important;
+	transition-duration: 0s!important;
+}
+</style>
+</head>
+<body>
+<div class="page-sidebar-expanded page-with-sidebar">
+	<p style="color: white;">I should have no padding when printed</p>
+</div>
+</body>
+</html>
