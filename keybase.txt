@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/georgedewar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dewar.co.nz
+  * I am georgedewar (https://keybase.io/georgedewar) on keybase.
+  * I have a public key with fingerprint C785 F10D 113C 91D8 7BEB  7759 1AE0 8CE9 255B 3067
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101493ef1d9636eefa6b58284ececc4569998d849fff74b14d626f1022579cd02cf0a",
+      "fingerprint": "c785f10d113c91d87beb77591ae08ce9255b3067",
+      "host": "keybase.io",
+      "key_id": "1ae08ce9255b3067",
+      "kid": "0101493ef1d9636eefa6b58284ececc4569998d849fff74b14d626f1022579cd02cf0a",
+      "uid": "04d9cad0891063195fd9a44663de5319",
+      "username": "georgedewar"
+    },
+    "merkle_root": {
+      "ctime": 1543885787,
+      "hash_meta": "c3e7466cab62e803eacba48737753af848a3ae7ef7ffa3311bde2465ac3382e8",
+      "seqno": 4047436
+    },
+    "revoke": {
+      "sig_ids": [
+        "ffaac5a1a9ceb1e67136f661ea6d525333b389e8b8550149d29fe184e0126c780f"
+      ]
+    },
+    "service": {
+      "hostname": "dewar.co.nz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1543885814,
+  "expire_in": 157680000,
+  "prev": "a5c254f2f508279dd76e908d0f384be48e6aa53f816c36e8a3ad55132386bae5",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMK3AnicrZNdaB1FGIbPqVaSgCBqiS0KYW8MMR52dv5PbYqiLXjRVK3W2uhxduab
+c7YnOXuyu/lp01AtKIUqFSxU8AcLNVoUqUIlWEpjtFYRFRShFyVIEhMtorTUaL0Q
+Z2NFBC+dm2F23+/93nlm5qNrryq0FevPk+lLa7Z+XPxsemSo0Lfy66UxL4zNTq88
+5tVheYJ+A2lWqUfGK3s+8hGRGCwykmEGYBULqQgEAQ1aE8qklMIIIq21nISIGBYw
+i/wgoFxq4wfa+srr9mzUqELSTKJG5mw1F9SJDEJYS2QEDyHknEqkwBcaZEBpiH3G
+XWEtTvMKFy5UKZSi2H1zi8pyvP/Q/8+5h/6yI0ZqZXwhkc8wktQaqQhhDBugbp0L
+U0gaagCcugpxUgUDIyrxxru9AUjq/VBJ4jjL+eosylWIEiwE5YK7Paq0VhmATOVo
+MHBnrFXIAhA+BqVDRQTHjg9WVhChsAIOllurMEYoNBAQRpXGWLgKFyWFwUbslYlP
+OMHMJUhgOK5D3jyNqo5c6pW3e65caaqQkhpCBIwjzCxjCBQzNKAY4xALCSIUlOYw
+TSAtIAfQRwFzB+hb79HxvFkyHOll8/yoriBY3nxJx6XGLheomcRZrON+96OWZc20
+nGPJdjZz5QiElSselTBqGHdPXMUwJGkUNxwmp/w3MYFItwejzSiBSpQrKGfCdyPv
+A8POUlEdUGIDS30RcGkMZyB9YXyLBQmBCGBKUWwFYtrdjRyooRThAAsWKqD/IJQu
+pqo6S8etobKhBLzx6am+qwvFtsI1K1fk76fQ1nrd36/qzFxL4ciW276dSWbW3qdK
+k4+8oxdrYzvm37x7/nh59qWjH9x/ccP6wwdvf1id7Zj1v3hsx+bdp/d1jJofFnt+
+q52qPLl4qbtr7vulqTUX2785vGLiw9bwxV3Fe37sWDd38+WfW549v/ehe7s6Z49P
+PbdlYEzuOfnC+U8n7mrfv3p1K3/819J0fWHr711fld76hbxy42A2OD45yqaOfPl6
+y+d+2PfAxp6hbKF98pkHe04cXNV7+Y39f7x34dDGC53kwJ3bdMTerp16+Vxw8t3k
+6fr7rXtu3bA4/8lNu3ufuH5q1VOdm6qTBT5z4sDgT6+u7d27D90BZydaDp07vbDp
+ht6jHbcU/c0pPZOs/+61pXWt24/9CcscglY=
+=9fZb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/georgedewar
+
+==================================================================
