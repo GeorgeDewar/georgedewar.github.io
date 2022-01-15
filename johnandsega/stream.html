@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
     <meta http-equiv='cache-control' content='no-cache'>
     <meta http-equiv='expires' content='0'>
@@ -20,33 +19,22 @@
             width: 100%;
             margin-bottom: 15px;
         }
-
-        .responsive-video {
-            position: relative;
-            padding-bottom: 75%;
-            height: 0;
-        }
-        .responsive-video iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <div>
-            <p><strong>The stream should appear below. For more options on mobile, such as casting, <a href="https://www.facebook.com/johnandsegawedding/live_videos/">click here</a> to view it on Facebook.</strong></p>
+        <div class="row">
+            <div class="col-md-6">
+                <img id="background" src="background.jpg">
+            </div>
+            <div class="col-md-6">
+                <p><strong>The live stream is now ready!</strong></p>
+                <p><strong><a href="https://www.facebook.com/johnandsegawedding/live_videos/">Click here to view it on Facebook.</a></strong></p>
+                <p>In the unlikely event that we have a technical failure and need to go to a backup stream, that will
+                    appear on the same page.
+                </p>
+            </div>
         </div>
-        
-        <div class="responsive-video">
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnandsegawedding%2Fvideos%2F463044915339209%2F&width=1280" width="1280" height="720" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-        </div>
-
     </div>
 </body>
-
 </html>
