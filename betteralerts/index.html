@@ -18,11 +18,26 @@
             }(document, "script"));
         </script>
         <!-- End PushAlert -->
+
+        <script>
+            (pushalertbyiw = window.pushalertbyiw || []).push(['onSuccess', callbackOnSuccess]);
+        
+            function callbackOnSuccess(result) {
+                console.log(result.subscriber_id); //will output the user's subscriberId
+                console.log(result.alreadySubscribed); // False means user just Subscribed
+        
+                //YOUR CODE
+                document.getElementById("subscriberId").innerHTML = `Subscriber ID: ${result.subscriber_id}`;
+            }
+        </script>
+
+        
     </head>
     <body>
         <div class="container">
             <h1>BetterAlerts - get the public transport service alerts you care about</h1>
             <p>This page exists to deliver push notifications</p>
+            <p id="subscriberId"></p>
         </div>
     </body>
 </html>
